@@ -1,0 +1,21 @@
+@keyframes typing {
+  from {
+    width: 0; 
+  }
+  to {
+    width: 100%; 
+  }
+}
+
+.typewriter {
+  overflow: hidden; 
+  white-space: nowrap; 
+}
+
+.text {
+  animation: typing 3s steps(20) forwards;
+  border-right: .15em solid; 
+  overflow: hidden;
+  white-space: nowrap; 
+  margin: 0; 
+}

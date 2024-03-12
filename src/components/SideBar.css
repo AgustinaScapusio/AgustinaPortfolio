@@ -1,0 +1,85 @@
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5%;
+    z-index: 1000; 
+}
+
+.content {
+    margin-left: 5%; 
+    padding-top: 20px; 
+}
+
+aside a {
+    display: block; 
+    text-decoration: none;
+    padding: 1.5rem;
+    color: black;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+aside a:hover {
+    text-decoration: line-through;
+}
+
+aside hr {
+    width: 4px;
+    height: 2px;
+    margin: 0;
+    margin-left: 35px;
+    background-color: black;
+    transform: rotate(180deg);
+    height: 50%;
+    background-color: black;
+    text-align: center;
+}
+
+aside p {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    margin: 20px 30px; 
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.home {
+    height: 70%;
+}
+
+@media (max-width: 900px) {
+    aside {
+        width: 100%;
+        height: 50px;
+        text-align: left;
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+    aside .home {
+        display: none;
+    }
+
+    aside a {
+        display: inline-block; /* Display buttons inline */
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg); /* Reset any rotation */
+        font-size: 1rem;
+    }
+
+    aside hr {
+        display: none;
+    }
+
+    aside p {
+        display: none; 
+    }
+}

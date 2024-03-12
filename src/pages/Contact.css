@@ -1,0 +1,76 @@
+.contact {
+    display: block;
+    margin: 20px; 
+    position: absolute;
+    bottom:150px;
+    left: 250px;
+}
+
+.paragraph-contact {
+    font-family: 'BemirsDemoVersionRegular-L360Z';
+    font-size: 10rem;
+    margin: 5px 10px;
+    transform: translateY(50px); 
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.paragraph-contact h4 {
+    margin-bottom: 0; 
+    font-family: 'BemirsDemoVersionRegular-L360Z';
+    transform: translateY(20px);
+    transition: opacity 0.3s ease-in, transform 0.5s ease-in-out; 
+}
+
+.paragraph-contact.fade-in h4 {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.paragraph-contact.fade-in {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.paragraph-contact p { 
+    margin: 5px 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.adresses {
+    margin: 5px 10px;
+    opacity: 0;
+    transform: translateY(0px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.adresses.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.adresses a {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+.adresses a:hover {
+    text-decoration: line-through;
+}
+
+@media (max-width: 900px) {
+.contact {
+    display: block;
+    margin: 20px; 
+    margin-left: 50px;
+    position: absolute;
+    left: 0px;
+    width: 75%;
+}
+.paragraph-contact h4{
+    font-size: 6rem
+}
+
+}
