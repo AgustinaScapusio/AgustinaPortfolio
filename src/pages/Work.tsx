@@ -18,7 +18,7 @@ export default function Work() {
     return (
         <div className={`work ${loaded ? 'fade-in' : ''}`}>
             <Paragraph title="Work" className='paragraph-work'>
-                I'm a full-stack developer, fresh from completing a rigorous bootcamp. While my portfolio may be modest since graduating just two weeks ago, it reflects my proficiency in React, ASP.NET, C#, SQL Server, and more. I'm excited to continue learning and expanding my skill set.
+                I'm a full-stack developer, fresh from completing a rigorous bootcamp. While my portfolio may be modest since graduating just two months ago, it reflects my proficiency in React, ASP.NET, C#, SQL Server, and more. I'm excited to continue learning and expanding my skill set.
             </Paragraph>
             <div className='button-work'>
                 <Button text='PitchMatch' onClick={() => window.open('https://github.com/Renatuscape/PitchMatchFrontEnd', '_blank')} />
