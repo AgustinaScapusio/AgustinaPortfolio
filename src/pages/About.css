@@ -41,7 +41,6 @@ img {
     margin-bottom: 0;
 }
 
-/* Transition for fade-in effect */
 .about {
     transition: opacity 0.3s ease;
     opacity: 0;
@@ -64,7 +63,7 @@ img {
     img {
         width: 200px;
         height: 250px;
-        margin: 20px auto; /* Center the image */
+        margin: 20px auto; 
         position: static;
         right: auto;
         top: auto;
@@ -73,7 +72,7 @@ img {
     .paragraph-about-me,
     .paragraph-skills {
         width: 75%;
-        margin: 20px auto; /* Center the paragraphs */
+        margin: 20px auto;
         position: static;
         top: auto;
         left: auto;
@@ -85,7 +84,6 @@ img {
         margin-top: 50px;
     }
 
-    /* Flexbox for column layout */
     .about {
         display: flex;
         flex-direction: column;
