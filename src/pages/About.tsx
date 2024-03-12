@@ -18,9 +18,7 @@ export default function About() {
     return (
         <div className={`about ${loaded ? 'fade-in' : ''}`}>
             <div className="title-about">About</div>
-            <div>
                 <img src={AgustinaImage} alt="Picture of Agustina Scapusio" />
-            </div>
             <Paragraph title="About Me" className="paragraph-about-me">
                 I'm originally from Buenos Aires but now living life in Norway since I was 20. Spent about five years working as a pastry chef/baker in Oslo and back home in Buenos Aires.
                 <br/><br/>
