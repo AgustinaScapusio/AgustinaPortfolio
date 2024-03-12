@@ -24,7 +24,9 @@ export default function Work() {
                 <Button text='PitchMatch' onClick={() => window.open('https://github.com/Renatuscape/PitchMatchFrontEnd', '_blank')} />
                 <Button text='Tic-tac-toe' onClick={() => window.open('https://tic-tac-toe-tau-tawny.vercel.app/', '_blank')} />
                 <Button text='TimeOut Game' onClick={() => window.open('https://time-out-game.vercel.app/', '_blank')} />
+                <Button text='Portfolio' onClick={() => window.open('https://github.com/AgustinaScapusio/AgustinaPortfolio', '_blank')} />
                 <Button text='Management App' onClick={() => window.open('https://management-project-six.vercel.app/', '_blank')} />
+
             </div>
         </div>
     );
