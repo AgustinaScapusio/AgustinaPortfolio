@@ -1,81 +1,95 @@
-    .title-about{
-            font-family: 'BemirsDemoVersionRegular-L360Z';
-            font-size: 10rem;
-            margin: 5px 10px;
-            position: absolute;
-            top: 50px;
-            left: 200px;
-    }
-    img{
-        width: 350px;
-        height: 400px;
-        position: absolute;
-        top: 200px;
-        right: 300px;
-    }
-    .paragraph-about-me h4{
-        display: none;
-    }
-    .paragraph-about-me{
-        font-size: 1rem;
-        position: absolute;
-        top: 250px;
-        left: 200px;
-        width: 500px;
-        text-align: justify;
-    }
+/* Global styles */
+.title-about {
+    font-family: 'BemirsDemoVersionRegular-L360Z';
+    font-size: 10rem;
+    margin: 5px 10px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
 
-   .paragraph-skills{
-        font-size: 1rem;
-        position: absolute;
-        top: 550px;
-        left: 200px;
-        width: 500px;
-        text-align: justify;
-    }
-    .paragraph-skills h4{
-        font-size: 3rem;
-        font-family: 'BemirsDemoVersionRegular-L360Z';
-        margin-bottom: 0px;
-    }
-    .about {
+img {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+
+.paragraph-about-me h4 {
+    display: none;
+}
+
+.paragraph-about-me,
+.paragraph-skills {
+    font-size: 1rem;
+    position: absolute;
+    width: 500px;
+    text-align: justify;
+    top: 250px;
+    left: 200px;
+}
+
+.paragraph-skills {
+    top: 550px;
+    left: 200px;
+}
+
+.paragraph-skills h4 {
+    font-size: 3rem;
+    font-family: 'BemirsDemoVersionRegular-L360Z';
+    margin-bottom: 0;
+}
+
+/* Transition for fade-in effect */
+.about {
     transition: opacity 0.3s ease;
     opacity: 0;
-    }
+}
 
-    .about.fade-in {
-     opacity: 1;
-    }   
+.about.fade-in {
+    opacity: 1;
+}
 
-@media (max-width: 768px) {
-    .title-about{
+/* Responsive styles */
+@media (max-width: 900px) {
+    .title-about {
         font-size: 5rem;
         margin: 5px 10px;
-        position: absolute;
-        top: 50px;
-        left: 50px;
+        position: relative;
+        top: 0;
+        left: 0;
     }
-    img{
-        width: 250px;
-        height: 300px;
-        position: absolute;
-        top: 200px;
-        right: 50px;
+
+    img {
+        width: 200px;
+        height: 250px;
+        margin: 20px auto; /* Center the image */
+        position: static;
+        right: auto;
+        top: auto;
     }
-    .paragraph-about-me{
-        font-size: 1rem;
-        position: absolute;
-        top: 250px;
-        left: 50px;
-        width: 300px;
-        text-align: justify;
+
+    .paragraph-about-me,
+    .paragraph-skills {
+        width: 75%;
+        margin: 20px auto; /* Center the paragraphs */
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
     }
-    .paragraph-skills{
-        font-size: 1rem;
-        position: absolute;
-        top: 550px;
-        left: 50px;
-        width: 300px;
-        text-align: justify;
+
+    .paragraph-skills h4 {
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+
+    /* Flexbox for column layout */
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }

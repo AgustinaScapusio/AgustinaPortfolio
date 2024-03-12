@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Paragraph from "../components/Paragraph";
-import AgustinaImage from '../assets/Image.jpeg';
+import AgustinaImage from '../assets/images/agustina.jpeg';
 import './About.css';
 
 export default function About() {
