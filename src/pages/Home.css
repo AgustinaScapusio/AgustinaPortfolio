@@ -72,7 +72,7 @@
         width: 100%;
         margin-right: 0px;
         margin-top: 60px;
-        left:10px;
+        left:5px;
         display:block;
 
     }
@@ -83,7 +83,7 @@
         margin: 400px 115px;
         position: absolute;
         top:30px; /* Position at the bottom */
-        left: -90px; /* Position at the left */
+        left: -105px; /* Position at the left */
         text-align: center;
     }
     .button-home p::before {
