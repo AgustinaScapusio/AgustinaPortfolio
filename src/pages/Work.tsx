@@ -26,6 +26,10 @@ export default function Work() {
                 <Button text='TimeOut Game' onClick={() => window.open('https://time-out-game.vercel.app/', '_blank')} />
                 <Button text='Portfolio' onClick={() => window.open('https://github.com/AgustinaScapusio/AgustinaPortfolio', '_blank')} />
                 <Button text='Management App' onClick={() => window.open('https://management-project-six.vercel.app/', '_blank')} />
+                <Button text='Quiz App' onClick={() => window.open('https://quiz-app-two-lovat.vercel.app/', '_blank')} />
+                <Button text='Placepicker' onClick={() => window.open('https://placepicker-psi.vercel.app/', '_blank')} />
+                
+
 
             </div>
         </div>
