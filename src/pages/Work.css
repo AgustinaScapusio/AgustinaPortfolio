@@ -1,3 +1,4 @@
+
 .work {
     display: flex;
     flex-direction: row;
@@ -83,6 +84,9 @@
     .work {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
     }
     .button-work {
         display: flex;
@@ -94,19 +98,18 @@
         margin: 60px 0px;
         width: 100%;
         left:0px;
+        top: 200px;
+
 
     }
     .paragraph-work {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin-bottom: 0;
-        margin-left: 20px;
-        position: relative;
-        top:500px;
-        left: -20px;
+        width: 75%;
+        margin: 50px auto;
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+
     }
     .paragraph-work h4 {
         font-size: larger;
