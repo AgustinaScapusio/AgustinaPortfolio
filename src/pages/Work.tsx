@@ -21,7 +21,7 @@ export default function Work() {
                 I'm a full-stack developer, fresh from completing a rigorous bootcamp. While my portfolio may be modest since graduating just two months ago, it reflects my proficiency in React, ASP.NET, C#, SQL Server, and more. I'm excited to continue learning and expanding my skill set.
             </Paragraph>
             <div className='button-work'>
-                <Button text='PitchMatch' onClick={() => window.open('https://github.com/Renatuscape/PitchMatchFrontEnd', '_blank')} />
+                <Button text='PitchMatch' onClick={() => window.open('https://youtu.be/4Ac3Hg_NCuQ', '_blank')} />
                 <Button text='Tic-tac-toe' onClick={() => window.open('https://tic-tac-toe-tau-tawny.vercel.app/', '_blank')} />
                 <Button text='TimeOut Game' onClick={() => window.open('https://time-out-game.vercel.app/', '_blank')} />
                 <Button text='Portfolio' onClick={() => window.open('https://github.com/AgustinaScapusio/AgustinaPortfolio', '_blank')} />
